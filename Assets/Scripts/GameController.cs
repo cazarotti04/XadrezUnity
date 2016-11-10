@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 class GameController : MonoBehaviour {
 
-    public GameObject reiBranco = null;
-    public GameObject reiPreto = null;
+    public GameObject ReiBranco = null;
+    public GameObject ReiPreto = null;
+    public GameObject TorreBranca = null;
+    public GameObject TorrePreta = null;
 
     public Text txtMsg = null;
     public Text txtXeque = null;
@@ -30,8 +32,12 @@ class GameController : MonoBehaviour {
         InformarAguardando();
 
 
-        Util.instanciarRei('e', 1, Cor.Branca, partida, reiBranco);
-        Util.instanciarRei('e', 8, Cor.Preta, partida, reiPreto);
+        Util.instanciarRei('e', 1, Cor.Branca, partida, ReiBranco);
+        Util.instanciarRei('e', 8, Cor.Preta, partida, ReiPreto);
+        Util.instanciarTorre('a', 1, Cor.Branca, partida, TorreBranca);
+        Util.instanciarTorre('h', 1, Cor.Branca, partida, TorreBranca);
+        Util.instanciarTorre('a', 8, Cor.Preta, partida, TorrePreta);
+        Util.instanciarTorre('h', 8, Cor.Preta, partida, TorrePreta);
     }
 
     public void processarMouseDown(GameObject peca, GameObject casa)
@@ -60,14 +66,18 @@ class GameController : MonoBehaviour {
 
     public void processarMouseUp(GameObject peca, GameObject casa)
     {
-        if (estado == Estado.AguardandoJogada)
+        if (estado == Estado.Arrastando)
         {
+            Debug.Log("1");
             if (casa != null)
             {
-                if(pecaEscolhida != null && pecaEscolhida == peca)
+                Debug.Log("2");
+                if (pecaEscolhida != null && pecaEscolhida == peca)
                 {
+                    Debug.Log("3");
                     try
                     {
+                        Debug.Log("4");
                         char coluna = casa.name[0];
                         int linha = casa.name[1] - '0';
                         destino = new PosicaoXadrez(coluna, linha);

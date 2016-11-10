@@ -44,7 +44,9 @@ public class Movimentacao : MonoBehaviour {
 
     void OnMouseUp()
     {
+        Debug.Log(casa);
         gameController.processarMouseUp(transform.gameObject, casa);
+
     }
 
     void OnMouseDrag()
