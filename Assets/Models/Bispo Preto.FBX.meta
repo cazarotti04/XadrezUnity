@@ -1,15 +1,39 @@
 fileFormatVersion: 2
-guid: 2f06cbe686b3ae142a9f86d6dcd64d08
-timeCreated: 1478777650
+guid: 3f39b943a3efa3440ac2f39bed7c3281
+timeCreated: 1480863325
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pasted__pasted__polySurface23
+    100000: 488001f8.o
+    100002: 4930d698.o
+    100004: 4cd75640.o
+    100006: Bishop
+    100008: Bishop_MeshPart0
+    100010: Bishop_MeshPart1
+    100012: //RootNode
+    400000: 488001f8.o
+    400002: 4930d698.o
+    400004: 4cd75640.o
+    400006: Bishop
+    400008: Bishop_MeshPart0
+    400010: Bishop_MeshPart1
+    400012: //RootNode
+    2300000: 488001f8.o
+    2300002: 4930d698.o
+    2300004: 4cd75640.o
+    2300006: Bishop_MeshPart0
+    2300008: Bishop_MeshPart1
+    3300000: 488001f8.o
+    3300002: 4930d698.o
+    3300004: 4cd75640.o
+    3300006: Bishop_MeshPart0
+    3300008: Bishop_MeshPart1
+    4300000: Bishop_MeshPart0
+    4300002: Bishop_MeshPart1
+    4300004: 488001f8.o
+    4300006: 4930d698.o
+    4300008: 4cd75640.o
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -19,7 +43,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -36,7 +60,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.3
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

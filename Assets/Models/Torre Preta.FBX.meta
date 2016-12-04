@@ -1,54 +1,28 @@
 fileFormatVersion: 2
-guid: 665e5af36801ccb42af721f52cc5f651
-timeCreated: 1478525988
+guid: 885f6e2a16ac5f24eaf93958be2fc00f
+timeCreated: 1480863353
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Box001
-    100002: Group001
-    100004: //RootNode
-    100006: mesh000
-    100008: mesh001
-    100010: mesh002
-    100012: mesh003
-    100014: mesh004
-    100016: mesh005
-    100018: mesh006
-    400000: Box001
-    400002: Group001
-    400004: //RootNode
-    400006: mesh000
-    400008: mesh001
-    400010: mesh002
-    400012: mesh003
-    400014: mesh004
-    400016: mesh005
-    400018: mesh006
-    2300000: Box001
-    2300002: mesh000
-    2300004: mesh001
-    2300006: mesh002
-    2300008: mesh003
-    2300010: mesh004
-    2300012: mesh005
-    2300014: mesh006
-    3300000: Box001
-    3300002: mesh000
-    3300004: mesh001
-    3300006: mesh002
-    3300008: mesh003
-    3300010: mesh004
-    3300012: mesh005
-    3300014: mesh006
-    4300000: mesh000
-    4300002: mesh001
-    4300004: mesh002
-    4300006: mesh003
-    4300008: mesh004
-    4300010: mesh005
-    4300012: mesh006
-    4300014: Box001
+    100000: Box048
+    100002: Cylinder002
+    100004: pasted__pasted__polySurface024
+    100006: //RootNode
+    400000: Box048
+    400002: Cylinder002
+    400004: pasted__pasted__polySurface024
+    400006: //RootNode
+    2300000: Box048
+    2300002: Cylinder002
+    2300004: pasted__pasted__polySurface024
+    3300000: Box048
+    3300002: Cylinder002
+    3300004: pasted__pasted__polySurface024
+    4300000: pasted__pasted__polySurface024
+    4300002: Cylinder002
+    4300004: Box048
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -57,7 +31,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -74,7 +48,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.3
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

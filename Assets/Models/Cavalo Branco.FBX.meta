@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 34e6f8c6b8e76f549935ec489ff96954
+timeCreated: 1480863299
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bar
+    100002: Barrel
+    100004: base
+    100006: //RootNode
+    100008: chain
+    100010: door1
+    100012: door2
+    100014: mech1
+    100016: mech2
+    100018: pasted__pasted__polySurface32
+    100020: props
+    100022: rope
+    100024: sticker
+    100026: sticker01
+    100028: tripod
+    100030: turret top
+    100032: turret01
+    100034: wheel
+    100036: Wheel01
+    100038: wood
+    100040: wood bar
+    100042: wood side
+    400000: bar
+    400002: Barrel
+    400004: base
+    400006: //RootNode
+    400008: chain
+    400010: door1
+    400012: door2
+    400014: mech1
+    400016: mech2
+    400018: pasted__pasted__polySurface32
+    400020: props
+    400022: rope
+    400024: sticker
+    400026: sticker01
+    400028: tripod
+    400030: turret top
+    400032: turret01
+    400034: wheel
+    400036: Wheel01
+    400038: wood
+    400040: wood bar
+    400042: wood side
+    2300000: bar
+    2300002: Barrel
+    2300004: base
+    2300006: chain
+    2300008: door1
+    2300010: door2
+    2300012: mech1
+    2300014: mech2
+    2300016: pasted__pasted__polySurface32
+    2300018: props
+    2300020: rope
+    2300022: sticker
+    2300024: sticker01
+    2300026: tripod
+    2300028: turret top
+    2300030: turret01
+    2300032: wheel
+    2300034: Wheel01
+    2300036: wood
+    2300038: wood bar
+    2300040: wood side
+    3300000: bar
+    3300002: Barrel
+    3300004: base
+    3300006: chain
+    3300008: door1
+    3300010: door2
+    3300012: mech1
+    3300014: mech2
+    3300016: pasted__pasted__polySurface32
+    3300018: props
+    3300020: rope
+    3300022: sticker
+    3300024: sticker01
+    3300026: tripod
+    3300028: turret top
+    3300030: turret01
+    3300032: wheel
+    3300034: Wheel01
+    3300036: wood
+    3300038: wood bar
+    3300040: wood side
+    4300000: Wheel01
+    4300002: sticker01
+    4300004: tripod
+    4300006: door1
+    4300008: door2
+    4300010: mech2
+    4300012: wood bar
+    4300014: props
+    4300016: pasted__pasted__polySurface32
+    4300018: base
+    4300020: wheel
+    4300022: chain
+    4300024: Barrel
+    4300026: sticker
+    4300028: turret01
+    4300030: wood
+    4300032: bar
+    4300034: mech1
+    4300036: wood side
+    4300038: rope
+    4300040: turret top
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

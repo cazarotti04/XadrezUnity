@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: a41c0d5104256ff428927025a441a84a
-timeCreated: 1478777651
+guid: 133fd3b07511cba48a0c797c77d519b0
+timeCreated: 1480863294
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pasted__pasted__polySurface59
+    4300000: Box046
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -19,7 +19,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
