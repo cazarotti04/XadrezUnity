@@ -109,16 +109,12 @@ class GameController : MonoBehaviour {
     {
         if (estado == Estado.Arrastando)
         {
-            Debug.Log("1");
             if (casa != null)
             {
-                Debug.Log("2");
                 if (pecaEscolhida != null && pecaEscolhida == peca)
                 {
-                    Debug.Log("3");
                     try
                     {
-                        Debug.Log("4");
                         char coluna = casa.name[0];
                         int linha = casa.name[1] - '0';
                         destino = new PosicaoXadrez(coluna, linha);
@@ -133,6 +129,8 @@ class GameController : MonoBehaviour {
 
                         peca.transform.position = Util.posicaoNaCena(coluna, linha);
 
+                        tratarJogadasEspeciais();
+                    
                         pecaEscolhida = null;
 
                         if (partida.terminada)
@@ -185,6 +183,24 @@ class GameController : MonoBehaviour {
         {
             obj.transform.position = posDescartePretas;
             posDescartePretas.z = posDescartePretas.z - 0.4f;
+        }
+    }
+
+    void tratarJogadasEspeciais()
+    {
+        Posicao pos = destino.toPosicao();
+        Peca pecaMovida = partida.tab.peca(pos);
+
+        if(pecaMovida is Rei && destino.coluna == origem.coluna + 2)
+        {
+            GameObject torre = partida.tab.peca(pos.linha, pos.coluna - 1).obj;
+            torre.transform.position = Util.posicaoNaCena('f', origem.linha);
+        }
+
+        if (pecaMovida is Rei && destino.coluna == origem.coluna - 2)
+        {
+            GameObject torre = partida.tab.peca(pos.linha, pos.coluna + 1).obj;
+            torre.transform.position = Util.posicaoNaCena('d', origem.linha);
         }
     }
 }

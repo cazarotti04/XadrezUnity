@@ -10,6 +10,11 @@ namespace xadrez
         public Peao(Tabuleiro tab, Cor cor, PartidaDeXadrez partida, GameObject obj) : base(tab, cor,obj) {
             this.partida = partida;
         }
+
+        public Peao(Tabuleiro tab, Cor cor, GameObject obj) : base(tab, cor, obj)
+        {
+        }
+
         public override string ToString()
         {
             return "P";
