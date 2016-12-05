@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4c7c309f455a58d4a9e3e355828989de
-timeCreated: 1480863346
+guid: c39143d4d21c844498bba09c4c2c86f1
+timeCreated: 1480944079
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -12,9 +12,7 @@ ModelImporter:
     100008: object010
     100010: object011
     100012: polySurface061
-    100014: polySurface061_MeshPart0
-    100016: polySurface061_MeshPart1
-    100018: //RootNode
+    100014: //RootNode
     400000: object006
     400002: object007
     400004: object008
@@ -22,34 +20,28 @@ ModelImporter:
     400008: object010
     400010: object011
     400012: polySurface061
-    400014: polySurface061_MeshPart0
-    400016: polySurface061_MeshPart1
-    400018: //RootNode
+    400014: //RootNode
     2300000: object006
     2300002: object007
     2300004: object008
     2300006: object009
     2300008: object010
     2300010: object011
-    2300012: polySurface061_MeshPart0
-    2300014: polySurface061_MeshPart1
+    2300012: polySurface061
     3300000: object006
     3300002: object007
     3300004: object008
     3300006: object009
     3300008: object010
     3300010: object011
-    3300012: polySurface061_MeshPart0
-    3300014: polySurface061_MeshPart1
-    4300000: polySurface061_MeshPart0
-    4300002: polySurface061_MeshPart1
-    4300004: object011
-    4300006: object010
-    4300008: object009
-    4300010: object008
-    4300012: object007
-    4300014: object006
-    9500000: //RootNode
+    3300012: polySurface061
+    4300000: object006
+    4300002: object007
+    4300004: object008
+    4300006: object009
+    4300008: object010
+    4300010: object011
+    4300012: polySurface061
   materials:
     importMaterials: 1
     materialName: 0
@@ -57,7 +49,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -74,7 +66,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 0.76
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -108,7 +100,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

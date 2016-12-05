@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 34e6f8c6b8e76f549935ec489ff96954
-timeCreated: 1480863299
+guid: 51c612bd5a0f89c4593ee0813aac0150
+timeCreated: 1480945473
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -91,28 +91,533 @@ ModelImporter:
     3300036: wood
     3300038: wood bar
     3300040: wood side
-    4300000: Wheel01
-    4300002: sticker01
-    4300004: tripod
-    4300006: door1
-    4300008: door2
-    4300010: mech2
-    4300012: wood bar
-    4300014: props
-    4300016: pasted__pasted__polySurface32
-    4300018: base
+    4300000: turret top
+    4300002: rope
+    4300004: wood side
+    4300006: mech1
+    4300008: bar
+    4300010: wood
+    4300012: turret01
+    4300014: sticker
+    4300016: Barrel
+    4300018: chain
     4300020: wheel
-    4300022: chain
-    4300024: Barrel
-    4300026: sticker
-    4300028: turret01
-    4300030: wood
-    4300032: bar
-    4300034: mech1
-    4300036: wood side
-    4300038: rope
-    4300040: turret top
-    7400000: Take 001
+    4300022: base
+    4300024: pasted__pasted__polySurface32
+    4300026: props
+    4300028: wood bar
+    4300030: mech2
+    4300032: door2
+    4300034: door1
+    4300036: tripod
+    4300038: sticker01
+    4300040: Wheel01
+    7400000: CavaloBranco|Barrel|Take 001|BaseLayer
+    7400002: CavaloBranco|bar|Take 001|BaseLayer
+    7400004: CavaloBranco|base|Take 001|BaseLayer
+    7400006: CavaloBranco|CavaloBranco|Take 001|BaseLayer
+    7400008: CavaloBranco|chain|Take 001|BaseLayer
+    7400010: CavaloBranco|door1|Take 001|BaseLayer
+    7400012: CavaloBranco|door2|Take 001|BaseLayer
+    7400014: CavaloBranco|mech1|Take 001|BaseLayer
+    7400016: CavaloBranco|mech2|Take 001|BaseLayer
+    7400018: CavaloBranco|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400020: CavaloBranco|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400022: CavaloBranco|props|Take 001|BaseLayer
+    7400024: CavaloBranco|rope|Take 001|BaseLayer
+    7400026: CavaloBranco|sticker01|Take 001|BaseLayer
+    7400028: CavaloBranco|sticker|Take 001|BaseLayer
+    7400030: CavaloBranco|tripod|Take 001|BaseLayer
+    7400032: CavaloBranco|turret top|Take 001|BaseLayer
+    7400034: CavaloBranco|turret01|Take 001|BaseLayer
+    7400036: CavaloBranco|Wheel01|Take 001|BaseLayer
+    7400038: CavaloBranco|wheel|Take 001|BaseLayer
+    7400040: CavaloBranco|wood bar|Take 001|BaseLayer
+    7400042: CavaloBranco|wood side|Take 001|BaseLayer
+    7400044: CavaloBranco|wood|Take 001|BaseLayer
+    7400046: turret top|Barrel|Take 001|BaseLayer
+    7400048: turret top|bar|Take 001|BaseLayer
+    7400050: turret top|base|Take 001|BaseLayer
+    7400052: turret top|CavaloBranco|Take 001|BaseLayer
+    7400054: turret top|chain|Take 001|BaseLayer
+    7400056: turret top|door1|Take 001|BaseLayer
+    7400058: turret top|door2|Take 001|BaseLayer
+    7400060: turret top|mech1|Take 001|BaseLayer
+    7400062: turret top|mech2|Take 001|BaseLayer
+    7400064: turret top|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400066: turret top|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400068: turret top|props|Take 001|BaseLayer
+    7400070: turret top|rope|Take 001|BaseLayer
+    7400072: turret top|sticker01|Take 001|BaseLayer
+    7400074: turret top|sticker|Take 001|BaseLayer
+    7400076: turret top|tripod|Take 001|BaseLayer
+    7400078: turret top|turret top|Take 001|BaseLayer
+    7400080: turret top|turret01|Take 001|BaseLayer
+    7400082: turret top|Wheel01|Take 001|BaseLayer
+    7400084: turret top|wheel|Take 001|BaseLayer
+    7400086: turret top|wood bar|Take 001|BaseLayer
+    7400088: turret top|wood side|Take 001|BaseLayer
+    7400090: turret top|wood|Take 001|BaseLayer
+    7400092: rope|Barrel|Take 001|BaseLayer
+    7400094: rope|bar|Take 001|BaseLayer
+    7400096: rope|base|Take 001|BaseLayer
+    7400098: rope|CavaloBranco|Take 001|BaseLayer
+    7400100: rope|chain|Take 001|BaseLayer
+    7400102: rope|door1|Take 001|BaseLayer
+    7400104: rope|door2|Take 001|BaseLayer
+    7400106: rope|mech1|Take 001|BaseLayer
+    7400108: rope|mech2|Take 001|BaseLayer
+    7400110: rope|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400112: rope|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400114: rope|props|Take 001|BaseLayer
+    7400116: rope|rope|Take 001|BaseLayer
+    7400118: rope|sticker01|Take 001|BaseLayer
+    7400120: rope|sticker|Take 001|BaseLayer
+    7400122: rope|tripod|Take 001|BaseLayer
+    7400124: rope|turret top|Take 001|BaseLayer
+    7400126: rope|turret01|Take 001|BaseLayer
+    7400128: rope|Wheel01|Take 001|BaseLayer
+    7400130: rope|wheel|Take 001|BaseLayer
+    7400132: rope|wood bar|Take 001|BaseLayer
+    7400134: rope|wood side|Take 001|BaseLayer
+    7400136: rope|wood|Take 001|BaseLayer
+    7400138: wood side|Barrel|Take 001|BaseLayer
+    7400140: wood side|bar|Take 001|BaseLayer
+    7400142: wood side|base|Take 001|BaseLayer
+    7400144: wood side|CavaloBranco|Take 001|BaseLayer
+    7400146: wood side|chain|Take 001|BaseLayer
+    7400148: wood side|door1|Take 001|BaseLayer
+    7400150: wood side|door2|Take 001|BaseLayer
+    7400152: wood side|mech1|Take 001|BaseLayer
+    7400154: wood side|mech2|Take 001|BaseLayer
+    7400156: wood side|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400158: wood side|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400160: wood side|props|Take 001|BaseLayer
+    7400162: wood side|rope|Take 001|BaseLayer
+    7400164: wood side|sticker01|Take 001|BaseLayer
+    7400166: wood side|sticker|Take 001|BaseLayer
+    7400168: wood side|tripod|Take 001|BaseLayer
+    7400170: wood side|turret top|Take 001|BaseLayer
+    7400172: wood side|turret01|Take 001|BaseLayer
+    7400174: wood side|Wheel01|Take 001|BaseLayer
+    7400176: wood side|wheel|Take 001|BaseLayer
+    7400178: wood side|wood bar|Take 001|BaseLayer
+    7400180: wood side|wood side|Take 001|BaseLayer
+    7400182: wood side|wood|Take 001|BaseLayer
+    7400184: mech1|Barrel|Take 001|BaseLayer
+    7400186: mech1|bar|Take 001|BaseLayer
+    7400188: mech1|base|Take 001|BaseLayer
+    7400190: mech1|CavaloBranco|Take 001|BaseLayer
+    7400192: mech1|chain|Take 001|BaseLayer
+    7400194: mech1|door1|Take 001|BaseLayer
+    7400196: mech1|door2|Take 001|BaseLayer
+    7400198: mech1|mech1|Take 001|BaseLayer
+    7400200: mech1|mech2|Take 001|BaseLayer
+    7400202: mech1|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400204: mech1|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400206: mech1|props|Take 001|BaseLayer
+    7400208: mech1|rope|Take 001|BaseLayer
+    7400210: mech1|sticker01|Take 001|BaseLayer
+    7400212: mech1|sticker|Take 001|BaseLayer
+    7400214: mech1|tripod|Take 001|BaseLayer
+    7400216: mech1|turret top|Take 001|BaseLayer
+    7400218: mech1|turret01|Take 001|BaseLayer
+    7400220: mech1|Wheel01|Take 001|BaseLayer
+    7400222: mech1|wheel|Take 001|BaseLayer
+    7400224: mech1|wood bar|Take 001|BaseLayer
+    7400226: mech1|wood side|Take 001|BaseLayer
+    7400228: mech1|wood|Take 001|BaseLayer
+    7400230: bar|Barrel|Take 001|BaseLayer
+    7400232: bar|bar|Take 001|BaseLayer
+    7400234: bar|base|Take 001|BaseLayer
+    7400236: bar|CavaloBranco|Take 001|BaseLayer
+    7400238: bar|chain|Take 001|BaseLayer
+    7400240: bar|door1|Take 001|BaseLayer
+    7400242: bar|door2|Take 001|BaseLayer
+    7400244: bar|mech1|Take 001|BaseLayer
+    7400246: bar|mech2|Take 001|BaseLayer
+    7400248: bar|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400250: bar|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400252: bar|props|Take 001|BaseLayer
+    7400254: bar|rope|Take 001|BaseLayer
+    7400256: bar|sticker01|Take 001|BaseLayer
+    7400258: bar|sticker|Take 001|BaseLayer
+    7400260: bar|tripod|Take 001|BaseLayer
+    7400262: bar|turret top|Take 001|BaseLayer
+    7400264: bar|turret01|Take 001|BaseLayer
+    7400266: bar|Wheel01|Take 001|BaseLayer
+    7400268: bar|wheel|Take 001|BaseLayer
+    7400270: bar|wood bar|Take 001|BaseLayer
+    7400272: bar|wood side|Take 001|BaseLayer
+    7400274: bar|wood|Take 001|BaseLayer
+    7400276: wood|Barrel|Take 001|BaseLayer
+    7400278: wood|bar|Take 001|BaseLayer
+    7400280: wood|base|Take 001|BaseLayer
+    7400282: wood|CavaloBranco|Take 001|BaseLayer
+    7400284: wood|chain|Take 001|BaseLayer
+    7400286: wood|door1|Take 001|BaseLayer
+    7400288: wood|door2|Take 001|BaseLayer
+    7400290: wood|mech1|Take 001|BaseLayer
+    7400292: wood|mech2|Take 001|BaseLayer
+    7400294: wood|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400296: wood|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400298: wood|props|Take 001|BaseLayer
+    7400300: wood|rope|Take 001|BaseLayer
+    7400302: wood|sticker01|Take 001|BaseLayer
+    7400304: wood|sticker|Take 001|BaseLayer
+    7400306: wood|tripod|Take 001|BaseLayer
+    7400308: wood|turret top|Take 001|BaseLayer
+    7400310: wood|turret01|Take 001|BaseLayer
+    7400312: wood|Wheel01|Take 001|BaseLayer
+    7400314: wood|wheel|Take 001|BaseLayer
+    7400316: wood|wood bar|Take 001|BaseLayer
+    7400318: wood|wood side|Take 001|BaseLayer
+    7400320: wood|wood|Take 001|BaseLayer
+    7400322: turret01|Barrel|Take 001|BaseLayer
+    7400324: turret01|bar|Take 001|BaseLayer
+    7400326: turret01|base|Take 001|BaseLayer
+    7400328: turret01|CavaloBranco|Take 001|BaseLayer
+    7400330: turret01|chain|Take 001|BaseLayer
+    7400332: turret01|door1|Take 001|BaseLayer
+    7400334: turret01|door2|Take 001|BaseLayer
+    7400336: turret01|mech1|Take 001|BaseLayer
+    7400338: turret01|mech2|Take 001|BaseLayer
+    7400340: turret01|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400342: turret01|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400344: turret01|props|Take 001|BaseLayer
+    7400346: turret01|rope|Take 001|BaseLayer
+    7400348: turret01|sticker01|Take 001|BaseLayer
+    7400350: turret01|sticker|Take 001|BaseLayer
+    7400352: turret01|tripod|Take 001|BaseLayer
+    7400354: turret01|turret top|Take 001|BaseLayer
+    7400356: turret01|turret01|Take 001|BaseLayer
+    7400358: turret01|Wheel01|Take 001|BaseLayer
+    7400360: turret01|wheel|Take 001|BaseLayer
+    7400362: turret01|wood bar|Take 001|BaseLayer
+    7400364: turret01|wood side|Take 001|BaseLayer
+    7400366: turret01|wood|Take 001|BaseLayer
+    7400368: sticker|Barrel|Take 001|BaseLayer
+    7400370: sticker|bar|Take 001|BaseLayer
+    7400372: sticker|base|Take 001|BaseLayer
+    7400374: sticker|CavaloBranco|Take 001|BaseLayer
+    7400376: sticker|chain|Take 001|BaseLayer
+    7400378: sticker|door1|Take 001|BaseLayer
+    7400380: sticker|door2|Take 001|BaseLayer
+    7400382: sticker|mech1|Take 001|BaseLayer
+    7400384: sticker|mech2|Take 001|BaseLayer
+    7400386: sticker|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400388: sticker|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400390: sticker|props|Take 001|BaseLayer
+    7400392: sticker|rope|Take 001|BaseLayer
+    7400394: sticker|sticker01|Take 001|BaseLayer
+    7400396: sticker|sticker|Take 001|BaseLayer
+    7400398: sticker|tripod|Take 001|BaseLayer
+    7400400: sticker|turret top|Take 001|BaseLayer
+    7400402: sticker|turret01|Take 001|BaseLayer
+    7400404: sticker|Wheel01|Take 001|BaseLayer
+    7400406: sticker|wheel|Take 001|BaseLayer
+    7400408: sticker|wood bar|Take 001|BaseLayer
+    7400410: sticker|wood side|Take 001|BaseLayer
+    7400412: sticker|wood|Take 001|BaseLayer
+    7400414: Barrel|Barrel|Take 001|BaseLayer
+    7400416: Barrel|bar|Take 001|BaseLayer
+    7400418: Barrel|base|Take 001|BaseLayer
+    7400420: Barrel|CavaloBranco|Take 001|BaseLayer
+    7400422: Barrel|chain|Take 001|BaseLayer
+    7400424: Barrel|door1|Take 001|BaseLayer
+    7400426: Barrel|door2|Take 001|BaseLayer
+    7400428: Barrel|mech1|Take 001|BaseLayer
+    7400430: Barrel|mech2|Take 001|BaseLayer
+    7400432: Barrel|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400434: Barrel|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400436: Barrel|props|Take 001|BaseLayer
+    7400438: Barrel|rope|Take 001|BaseLayer
+    7400440: Barrel|sticker01|Take 001|BaseLayer
+    7400442: Barrel|sticker|Take 001|BaseLayer
+    7400444: Barrel|tripod|Take 001|BaseLayer
+    7400446: Barrel|turret top|Take 001|BaseLayer
+    7400448: Barrel|turret01|Take 001|BaseLayer
+    7400450: Barrel|Wheel01|Take 001|BaseLayer
+    7400452: Barrel|wheel|Take 001|BaseLayer
+    7400454: Barrel|wood bar|Take 001|BaseLayer
+    7400456: Barrel|wood side|Take 001|BaseLayer
+    7400458: Barrel|wood|Take 001|BaseLayer
+    7400460: chain|Barrel|Take 001|BaseLayer
+    7400462: chain|bar|Take 001|BaseLayer
+    7400464: chain|base|Take 001|BaseLayer
+    7400466: chain|CavaloBranco|Take 001|BaseLayer
+    7400468: chain|chain|Take 001|BaseLayer
+    7400470: chain|door1|Take 001|BaseLayer
+    7400472: chain|door2|Take 001|BaseLayer
+    7400474: chain|mech1|Take 001|BaseLayer
+    7400476: chain|mech2|Take 001|BaseLayer
+    7400478: chain|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400480: chain|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400482: chain|props|Take 001|BaseLayer
+    7400484: chain|rope|Take 001|BaseLayer
+    7400486: chain|sticker01|Take 001|BaseLayer
+    7400488: chain|sticker|Take 001|BaseLayer
+    7400490: chain|tripod|Take 001|BaseLayer
+    7400492: chain|turret top|Take 001|BaseLayer
+    7400494: chain|turret01|Take 001|BaseLayer
+    7400496: chain|Wheel01|Take 001|BaseLayer
+    7400498: chain|wheel|Take 001|BaseLayer
+    7400500: chain|wood bar|Take 001|BaseLayer
+    7400502: chain|wood side|Take 001|BaseLayer
+    7400504: chain|wood|Take 001|BaseLayer
+    7400506: wheel|Barrel|Take 001|BaseLayer
+    7400508: wheel|bar|Take 001|BaseLayer
+    7400510: wheel|base|Take 001|BaseLayer
+    7400512: wheel|CavaloBranco|Take 001|BaseLayer
+    7400514: wheel|chain|Take 001|BaseLayer
+    7400516: wheel|door1|Take 001|BaseLayer
+    7400518: wheel|door2|Take 001|BaseLayer
+    7400520: wheel|mech1|Take 001|BaseLayer
+    7400522: wheel|mech2|Take 001|BaseLayer
+    7400524: wheel|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400526: wheel|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400528: wheel|props|Take 001|BaseLayer
+    7400530: wheel|rope|Take 001|BaseLayer
+    7400532: wheel|sticker01|Take 001|BaseLayer
+    7400534: wheel|sticker|Take 001|BaseLayer
+    7400536: wheel|tripod|Take 001|BaseLayer
+    7400538: wheel|turret top|Take 001|BaseLayer
+    7400540: wheel|turret01|Take 001|BaseLayer
+    7400542: wheel|Wheel01|Take 001|BaseLayer
+    7400544: wheel|wheel|Take 001|BaseLayer
+    7400546: wheel|wood bar|Take 001|BaseLayer
+    7400548: wheel|wood side|Take 001|BaseLayer
+    7400550: wheel|wood|Take 001|BaseLayer
+    7400552: base|Barrel|Take 001|BaseLayer
+    7400554: base|bar|Take 001|BaseLayer
+    7400556: base|base|Take 001|BaseLayer
+    7400558: base|CavaloBranco|Take 001|BaseLayer
+    7400560: base|chain|Take 001|BaseLayer
+    7400562: base|door1|Take 001|BaseLayer
+    7400564: base|door2|Take 001|BaseLayer
+    7400566: base|mech1|Take 001|BaseLayer
+    7400568: base|mech2|Take 001|BaseLayer
+    7400570: base|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400572: base|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400574: base|props|Take 001|BaseLayer
+    7400576: base|rope|Take 001|BaseLayer
+    7400578: base|sticker01|Take 001|BaseLayer
+    7400580: base|sticker|Take 001|BaseLayer
+    7400582: base|tripod|Take 001|BaseLayer
+    7400584: base|turret top|Take 001|BaseLayer
+    7400586: base|turret01|Take 001|BaseLayer
+    7400588: base|Wheel01|Take 001|BaseLayer
+    7400590: base|wheel|Take 001|BaseLayer
+    7400592: base|wood bar|Take 001|BaseLayer
+    7400594: base|wood side|Take 001|BaseLayer
+    7400596: base|wood|Take 001|BaseLayer
+    7400598: pasted__pasted__polySurface32|Barrel|Take 001|BaseLayer
+    7400600: pasted__pasted__polySurface32|bar|Take 001|BaseLayer
+    7400602: pasted__pasted__polySurface32|base|Take 001|BaseLayer
+    7400604: pasted__pasted__polySurface32|CavaloBranco|Take 001|BaseLayer
+    7400606: pasted__pasted__polySurface32|chain|Take 001|BaseLayer
+    7400608: pasted__pasted__polySurface32|door1|Take 001|BaseLayer
+    7400610: pasted__pasted__polySurface32|door2|Take 001|BaseLayer
+    7400612: pasted__pasted__polySurface32|mech1|Take 001|BaseLayer
+    7400614: pasted__pasted__polySurface32|mech2|Take 001|BaseLayer
+    7400616: pasted__pasted__polySurface32|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400618: pasted__pasted__polySurface32|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400620: pasted__pasted__polySurface32|props|Take 001|BaseLayer
+    7400622: pasted__pasted__polySurface32|rope|Take 001|BaseLayer
+    7400624: pasted__pasted__polySurface32|sticker01|Take 001|BaseLayer
+    7400626: pasted__pasted__polySurface32|sticker|Take 001|BaseLayer
+    7400628: pasted__pasted__polySurface32|tripod|Take 001|BaseLayer
+    7400630: pasted__pasted__polySurface32|turret top|Take 001|BaseLayer
+    7400632: pasted__pasted__polySurface32|turret01|Take 001|BaseLayer
+    7400634: pasted__pasted__polySurface32|Wheel01|Take 001|BaseLayer
+    7400636: pasted__pasted__polySurface32|wheel|Take 001|BaseLayer
+    7400638: pasted__pasted__polySurface32|wood bar|Take 001|BaseLayer
+    7400640: pasted__pasted__polySurface32|wood side|Take 001|BaseLayer
+    7400642: pasted__pasted__polySurface32|wood|Take 001|BaseLayer
+    7400644: props|Barrel|Take 001|BaseLayer
+    7400646: props|bar|Take 001|BaseLayer
+    7400648: props|base|Take 001|BaseLayer
+    7400650: props|CavaloBranco|Take 001|BaseLayer
+    7400652: props|chain|Take 001|BaseLayer
+    7400654: props|door1|Take 001|BaseLayer
+    7400656: props|door2|Take 001|BaseLayer
+    7400658: props|mech1|Take 001|BaseLayer
+    7400660: props|mech2|Take 001|BaseLayer
+    7400662: props|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400664: props|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400666: props|props|Take 001|BaseLayer
+    7400668: props|rope|Take 001|BaseLayer
+    7400670: props|sticker01|Take 001|BaseLayer
+    7400672: props|sticker|Take 001|BaseLayer
+    7400674: props|tripod|Take 001|BaseLayer
+    7400676: props|turret top|Take 001|BaseLayer
+    7400678: props|turret01|Take 001|BaseLayer
+    7400680: props|Wheel01|Take 001|BaseLayer
+    7400682: props|wheel|Take 001|BaseLayer
+    7400684: props|wood bar|Take 001|BaseLayer
+    7400686: props|wood side|Take 001|BaseLayer
+    7400688: props|wood|Take 001|BaseLayer
+    7400690: wood bar|Barrel|Take 001|BaseLayer
+    7400692: wood bar|bar|Take 001|BaseLayer
+    7400694: wood bar|base|Take 001|BaseLayer
+    7400696: wood bar|CavaloBranco|Take 001|BaseLayer
+    7400698: wood bar|chain|Take 001|BaseLayer
+    7400700: wood bar|door1|Take 001|BaseLayer
+    7400702: wood bar|door2|Take 001|BaseLayer
+    7400704: wood bar|mech1|Take 001|BaseLayer
+    7400706: wood bar|mech2|Take 001|BaseLayer
+    7400708: wood bar|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400710: wood bar|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400712: wood bar|props|Take 001|BaseLayer
+    7400714: wood bar|rope|Take 001|BaseLayer
+    7400716: wood bar|sticker01|Take 001|BaseLayer
+    7400718: wood bar|sticker|Take 001|BaseLayer
+    7400720: wood bar|tripod|Take 001|BaseLayer
+    7400722: wood bar|turret top|Take 001|BaseLayer
+    7400724: wood bar|turret01|Take 001|BaseLayer
+    7400726: wood bar|Wheel01|Take 001|BaseLayer
+    7400728: wood bar|wheel|Take 001|BaseLayer
+    7400730: wood bar|wood bar|Take 001|BaseLayer
+    7400732: wood bar|wood side|Take 001|BaseLayer
+    7400734: wood bar|wood|Take 001|BaseLayer
+    7400736: mech2|Barrel|Take 001|BaseLayer
+    7400738: mech2|bar|Take 001|BaseLayer
+    7400740: mech2|base|Take 001|BaseLayer
+    7400742: mech2|CavaloBranco|Take 001|BaseLayer
+    7400744: mech2|chain|Take 001|BaseLayer
+    7400746: mech2|door1|Take 001|BaseLayer
+    7400748: mech2|door2|Take 001|BaseLayer
+    7400750: mech2|mech1|Take 001|BaseLayer
+    7400752: mech2|mech2|Take 001|BaseLayer
+    7400754: mech2|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400756: mech2|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400758: mech2|props|Take 001|BaseLayer
+    7400760: mech2|rope|Take 001|BaseLayer
+    7400762: mech2|sticker01|Take 001|BaseLayer
+    7400764: mech2|sticker|Take 001|BaseLayer
+    7400766: mech2|tripod|Take 001|BaseLayer
+    7400768: mech2|turret top|Take 001|BaseLayer
+    7400770: mech2|turret01|Take 001|BaseLayer
+    7400772: mech2|Wheel01|Take 001|BaseLayer
+    7400774: mech2|wheel|Take 001|BaseLayer
+    7400776: mech2|wood bar|Take 001|BaseLayer
+    7400778: mech2|wood side|Take 001|BaseLayer
+    7400780: mech2|wood|Take 001|BaseLayer
+    7400782: door2|Barrel|Take 001|BaseLayer
+    7400784: door2|bar|Take 001|BaseLayer
+    7400786: door2|base|Take 001|BaseLayer
+    7400788: door2|CavaloBranco|Take 001|BaseLayer
+    7400790: door2|chain|Take 001|BaseLayer
+    7400792: door2|door1|Take 001|BaseLayer
+    7400794: door2|door2|Take 001|BaseLayer
+    7400796: door2|mech1|Take 001|BaseLayer
+    7400798: door2|mech2|Take 001|BaseLayer
+    7400800: door2|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400802: door2|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400804: door2|props|Take 001|BaseLayer
+    7400806: door2|rope|Take 001|BaseLayer
+    7400808: door2|sticker01|Take 001|BaseLayer
+    7400810: door2|sticker|Take 001|BaseLayer
+    7400812: door2|tripod|Take 001|BaseLayer
+    7400814: door2|turret top|Take 001|BaseLayer
+    7400816: door2|turret01|Take 001|BaseLayer
+    7400818: door2|Wheel01|Take 001|BaseLayer
+    7400820: door2|wheel|Take 001|BaseLayer
+    7400822: door2|wood bar|Take 001|BaseLayer
+    7400824: door2|wood side|Take 001|BaseLayer
+    7400826: door2|wood|Take 001|BaseLayer
+    7400828: door1|Barrel|Take 001|BaseLayer
+    7400830: door1|bar|Take 001|BaseLayer
+    7400832: door1|base|Take 001|BaseLayer
+    7400834: door1|CavaloBranco|Take 001|BaseLayer
+    7400836: door1|chain|Take 001|BaseLayer
+    7400838: door1|door1|Take 001|BaseLayer
+    7400840: door1|door2|Take 001|BaseLayer
+    7400842: door1|mech1|Take 001|BaseLayer
+    7400844: door1|mech2|Take 001|BaseLayer
+    7400846: door1|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400848: door1|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400850: door1|props|Take 001|BaseLayer
+    7400852: door1|rope|Take 001|BaseLayer
+    7400854: door1|sticker01|Take 001|BaseLayer
+    7400856: door1|sticker|Take 001|BaseLayer
+    7400858: door1|tripod|Take 001|BaseLayer
+    7400860: door1|turret top|Take 001|BaseLayer
+    7400862: door1|turret01|Take 001|BaseLayer
+    7400864: door1|Wheel01|Take 001|BaseLayer
+    7400866: door1|wheel|Take 001|BaseLayer
+    7400868: door1|wood bar|Take 001|BaseLayer
+    7400870: door1|wood side|Take 001|BaseLayer
+    7400872: door1|wood|Take 001|BaseLayer
+    7400874: tripod|Barrel|Take 001|BaseLayer
+    7400876: tripod|bar|Take 001|BaseLayer
+    7400878: tripod|base|Take 001|BaseLayer
+    7400880: tripod|CavaloBranco|Take 001|BaseLayer
+    7400882: tripod|chain|Take 001|BaseLayer
+    7400884: tripod|door1|Take 001|BaseLayer
+    7400886: tripod|door2|Take 001|BaseLayer
+    7400888: tripod|mech1|Take 001|BaseLayer
+    7400890: tripod|mech2|Take 001|BaseLayer
+    7400892: tripod|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400894: tripod|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400896: tripod|props|Take 001|BaseLayer
+    7400898: tripod|rope|Take 001|BaseLayer
+    7400900: tripod|sticker01|Take 001|BaseLayer
+    7400902: tripod|sticker|Take 001|BaseLayer
+    7400904: tripod|tripod|Take 001|BaseLayer
+    7400906: tripod|turret top|Take 001|BaseLayer
+    7400908: tripod|turret01|Take 001|BaseLayer
+    7400910: tripod|Wheel01|Take 001|BaseLayer
+    7400912: tripod|wheel|Take 001|BaseLayer
+    7400914: tripod|wood bar|Take 001|BaseLayer
+    7400916: tripod|wood side|Take 001|BaseLayer
+    7400918: tripod|wood|Take 001|BaseLayer
+    7400920: sticker01|Barrel|Take 001|BaseLayer
+    7400922: sticker01|bar|Take 001|BaseLayer
+    7400924: sticker01|base|Take 001|BaseLayer
+    7400926: sticker01|CavaloBranco|Take 001|BaseLayer
+    7400928: sticker01|chain|Take 001|BaseLayer
+    7400930: sticker01|door1|Take 001|BaseLayer
+    7400932: sticker01|door2|Take 001|BaseLayer
+    7400934: sticker01|mech1|Take 001|BaseLayer
+    7400936: sticker01|mech2|Take 001|BaseLayer
+    7400938: sticker01|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400940: sticker01|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400942: sticker01|props|Take 001|BaseLayer
+    7400944: sticker01|rope|Take 001|BaseLayer
+    7400946: sticker01|sticker01|Take 001|BaseLayer
+    7400948: sticker01|sticker|Take 001|BaseLayer
+    7400950: sticker01|tripod|Take 001|BaseLayer
+    7400952: sticker01|turret top|Take 001|BaseLayer
+    7400954: sticker01|turret01|Take 001|BaseLayer
+    7400956: sticker01|Wheel01|Take 001|BaseLayer
+    7400958: sticker01|wheel|Take 001|BaseLayer
+    7400960: sticker01|wood bar|Take 001|BaseLayer
+    7400962: sticker01|wood side|Take 001|BaseLayer
+    7400964: sticker01|wood|Take 001|BaseLayer
+    7400966: Wheel01|Barrel|Take 001|BaseLayer
+    7400968: Wheel01|bar|Take 001|BaseLayer
+    7400970: Wheel01|base|Take 001|BaseLayer
+    7400972: Wheel01|CavaloBranco|Take 001|BaseLayer
+    7400974: Wheel01|chain|Take 001|BaseLayer
+    7400976: Wheel01|door1|Take 001|BaseLayer
+    7400978: Wheel01|door2|Take 001|BaseLayer
+    7400980: Wheel01|mech1|Take 001|BaseLayer
+    7400982: Wheel01|mech2|Take 001|BaseLayer
+    7400984: Wheel01|pasted__pasted__polySurface23|Take 001|BaseLayer
+    7400986: Wheel01|pasted__pasted__polySurface32|Take 001|BaseLayer
+    7400988: Wheel01|props|Take 001|BaseLayer
+    7400990: Wheel01|rope|Take 001|BaseLayer
+    7400992: Wheel01|sticker01|Take 001|BaseLayer
+    7400994: Wheel01|sticker|Take 001|BaseLayer
+    7400996: Wheel01|tripod|Take 001|BaseLayer
+    7400998: Wheel01|turret top|Take 001|BaseLayer
+    7401000: Wheel01|turret01|Take 001|BaseLayer
+    7401002: Wheel01|Wheel01|Take 001|BaseLayer
+    7401004: Wheel01|wheel|Take 001|BaseLayer
+    7401006: Wheel01|wood bar|Take 001|BaseLayer
+    7401008: Wheel01|wood side|Take 001|BaseLayer
+    7401010: Wheel01|wood|Take 001|BaseLayer
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -121,7 +626,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -138,7 +643,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 0.76
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

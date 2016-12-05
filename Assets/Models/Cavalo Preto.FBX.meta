@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7a8ade5051eba30428b3a402b06e4dbe
-timeCreated: 1480863352
+guid: 3e3654400b8cf6849a443e7e2c05d765
+timeCreated: 1480945468
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -31,13 +31,61 @@ ModelImporter:
     3300006: Track
     3300008: Turret
     3300010: Turret_2
-    4300000: Turret
-    4300002: Turret_2
-    4300004: Track
-    4300006: pasted__pasted__polySurface033
-    4300008: Body_2
-    4300010: Body_1
-    7400000: Take 001
+    4300000: Body_1
+    4300002: Body_2
+    4300004: pasted__pasted__polySurface033
+    4300006: Track
+    4300008: Turret_2
+    4300010: Turret
+    7400000: CavaloPreto|Body_1|Take 001|BaseLayer
+    7400002: CavaloPreto|Body_2|Take 001|BaseLayer
+    7400004: CavaloPreto|CavaloPreto|Take 001|BaseLayer
+    7400006: CavaloPreto|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400008: CavaloPreto|Track|Take 001|BaseLayer
+    7400010: CavaloPreto|Turret_2|Take 001|BaseLayer
+    7400012: CavaloPreto|Turret|Take 001|BaseLayer
+    7400014: Body_1|Body_1|Take 001|BaseLayer
+    7400016: Body_1|Body_2|Take 001|BaseLayer
+    7400018: Body_1|CavaloPreto|Take 001|BaseLayer
+    7400020: Body_1|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400022: Body_1|Track|Take 001|BaseLayer
+    7400024: Body_1|Turret_2|Take 001|BaseLayer
+    7400026: Body_1|Turret|Take 001|BaseLayer
+    7400028: Body_2|Body_1|Take 001|BaseLayer
+    7400030: Body_2|Body_2|Take 001|BaseLayer
+    7400032: Body_2|CavaloPreto|Take 001|BaseLayer
+    7400034: Body_2|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400036: Body_2|Track|Take 001|BaseLayer
+    7400038: Body_2|Turret_2|Take 001|BaseLayer
+    7400040: Body_2|Turret|Take 001|BaseLayer
+    7400042: pasted__pasted__polySurface033|Body_1|Take 001|BaseLayer
+    7400044: pasted__pasted__polySurface033|Body_2|Take 001|BaseLayer
+    7400046: pasted__pasted__polySurface033|CavaloPreto|Take 001|BaseLayer
+    7400048: pasted__pasted__polySurface033|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400050: pasted__pasted__polySurface033|Track|Take 001|BaseLayer
+    7400052: pasted__pasted__polySurface033|Turret_2|Take 001|BaseLayer
+    7400054: pasted__pasted__polySurface033|Turret|Take 001|BaseLayer
+    7400056: Track|Body_1|Take 001|BaseLayer
+    7400058: Track|Body_2|Take 001|BaseLayer
+    7400060: Track|CavaloPreto|Take 001|BaseLayer
+    7400062: Track|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400064: Track|Track|Take 001|BaseLayer
+    7400066: Track|Turret_2|Take 001|BaseLayer
+    7400068: Track|Turret|Take 001|BaseLayer
+    7400070: Turret_2|Body_1|Take 001|BaseLayer
+    7400072: Turret_2|Body_2|Take 001|BaseLayer
+    7400074: Turret_2|CavaloPreto|Take 001|BaseLayer
+    7400076: Turret_2|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400078: Turret_2|Track|Take 001|BaseLayer
+    7400080: Turret_2|Turret_2|Take 001|BaseLayer
+    7400082: Turret_2|Turret|Take 001|BaseLayer
+    7400084: Turret|Body_1|Take 001|BaseLayer
+    7400086: Turret|Body_2|Take 001|BaseLayer
+    7400088: Turret|CavaloPreto|Take 001|BaseLayer
+    7400090: Turret|pasted__pasted__polySurface033|Take 001|BaseLayer
+    7400092: Turret|Track|Take 001|BaseLayer
+    7400094: Turret|Turret_2|Take 001|BaseLayer
+    7400096: Turret|Turret|Take 001|BaseLayer
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -46,7 +94,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -63,7 +111,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 0.76
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

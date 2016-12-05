@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: a3be985810778404d855b81fbab52f99
-timeCreated: 1480863376
+guid: 7673103763dd4c24ea47a99b90289dd5
+timeCreated: 1480944079
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -15,9 +15,17 @@ ModelImporter:
     2300002: revolvedSurface17
     3300000: helmet001
     3300002: revolvedSurface17
-    4300000: revolvedSurface17
-    4300002: helmet001
-    7400000: Take 001
+    4300000: helmet001
+    4300002: revolvedSurface17
+    7400000: PeaoPreto|helmet001|Take 001|BaseLayer
+    7400002: PeaoPreto|PeaoPreto|Take 001|BaseLayer
+    7400004: PeaoPreto|revolvedSurface17|Take 001|BaseLayer
+    7400006: helmet001|helmet001|Take 001|BaseLayer
+    7400008: helmet001|PeaoPreto|Take 001|BaseLayer
+    7400010: helmet001|revolvedSurface17|Take 001|BaseLayer
+    7400012: revolvedSurface17|helmet001|Take 001|BaseLayer
+    7400014: revolvedSurface17|PeaoPreto|Take 001|BaseLayer
+    7400016: revolvedSurface17|revolvedSurface17|Take 001|BaseLayer
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -26,7 +34,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -43,7 +51,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 0.76
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

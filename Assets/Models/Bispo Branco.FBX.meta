@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 08de6ba89aaa963469f4b060d32b1ba3
-timeCreated: 1480863293
+guid: d7a0c6dac36d30e40a2a1ae229cecf3e
+timeCreated: 1480945474
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,32 +9,49 @@ ModelImporter:
     100002: 4930d698.o001
     100004: 4cd75640.o001
     100006: Bishop001
-    100008: Bishop001_MeshPart0
-    100010: Bishop001_MeshPart1
-    100012: //RootNode
+    100008: //RootNode
     400000: 488001f8.o001
     400002: 4930d698.o001
     400004: 4cd75640.o001
     400006: Bishop001
-    400008: Bishop001_MeshPart0
-    400010: Bishop001_MeshPart1
-    400012: //RootNode
+    400008: //RootNode
     2300000: 488001f8.o001
     2300002: 4930d698.o001
     2300004: 4cd75640.o001
-    2300006: Bishop001_MeshPart0
-    2300008: Bishop001_MeshPart1
+    2300006: Bishop001
     3300000: 488001f8.o001
     3300002: 4930d698.o001
     3300004: 4cd75640.o001
-    3300006: Bishop001_MeshPart0
-    3300008: Bishop001_MeshPart1
-    4300000: 4cd75640.o001
-    4300002: 4930d698.o001
-    4300004: 488001f8.o001
-    4300006: Bishop001_MeshPart0
-    4300008: Bishop001_MeshPart1
-    7400000: Take 001
+    3300006: Bishop001
+    4300000: Bishop001
+    4300002: 488001f8.o001
+    4300004: 4930d698.o001
+    4300006: 4cd75640.o001
+    7400000: BispoBranco|488001f8.o001|Take 001|BaseLayer
+    7400002: BispoBranco|4930d698.o001|Take 001|BaseLayer
+    7400004: BispoBranco|4cd75640.o001|Take 001|BaseLayer
+    7400006: BispoBranco|Bishop001|Take 001|BaseLayer
+    7400008: BispoBranco|BispoBranco|Take 001|BaseLayer
+    7400010: Bishop001|488001f8.o001|Take 001|BaseLayer
+    7400012: Bishop001|4930d698.o001|Take 001|BaseLayer
+    7400014: Bishop001|4cd75640.o001|Take 001|BaseLayer
+    7400016: Bishop001|Bishop001|Take 001|BaseLayer
+    7400018: Bishop001|BispoBranco|Take 001|BaseLayer
+    7400020: 488001f8.o001|488001f8.o001|Take 001|BaseLayer
+    7400022: 488001f8.o001|4930d698.o001|Take 001|BaseLayer
+    7400024: 488001f8.o001|4cd75640.o001|Take 001|BaseLayer
+    7400026: 488001f8.o001|Bishop001|Take 001|BaseLayer
+    7400028: 488001f8.o001|BispoBranco|Take 001|BaseLayer
+    7400030: 4930d698.o001|488001f8.o001|Take 001|BaseLayer
+    7400032: 4930d698.o001|4930d698.o001|Take 001|BaseLayer
+    7400034: 4930d698.o001|4cd75640.o001|Take 001|BaseLayer
+    7400036: 4930d698.o001|Bishop001|Take 001|BaseLayer
+    7400038: 4930d698.o001|BispoBranco|Take 001|BaseLayer
+    7400040: 4cd75640.o001|488001f8.o001|Take 001|BaseLayer
+    7400042: 4cd75640.o001|4930d698.o001|Take 001|BaseLayer
+    7400044: 4cd75640.o001|4cd75640.o001|Take 001|BaseLayer
+    7400046: 4cd75640.o001|Bishop001|Take 001|BaseLayer
+    7400048: 4cd75640.o001|BispoBranco|Take 001|BaseLayer
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -43,7 +60,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -60,7 +77,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.3
+    globalScale: 0.76
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
