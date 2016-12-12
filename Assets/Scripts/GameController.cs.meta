@@ -1,10 +1,25 @@
 fileFormatVersion: 2
 guid: 5452301e19e138246a9e201f9d5a1a3d
-timeCreated: 1478522067
+timeCreated: 1481499162
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ReiBranco: {instanceID: 0}
+  - ReiPreto: {instanceID: 0}
+  - RainhaBranca: {instanceID: 0}
+  - RainhaPreta: {instanceID: 0}
+  - TorreBranca: {instanceID: 0}
+  - TorrePreta: {instanceID: 0}
+  - CavaloBranco: {instanceID: 0}
+  - CavaloPreto: {instanceID: 0}
+  - BispoBranco: {instanceID: 0}
+  - BispoPreto: {instanceID: 0}
+  - PeaoBranco: {instanceID: 0}
+  - PeaoPreto: {instanceID: 0}
+  - txtMsg: {instanceID: 0}
+  - txtXeque: {instanceID: 0}
+  - particulas: {fileID: 101822, guid: 8be84c99699a74f418b55fbfd1c5e31a, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

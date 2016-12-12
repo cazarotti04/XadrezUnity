@@ -2,6 +2,7 @@
 using tabuleiro;
 using xadrez;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 class GameController : MonoBehaviour {
 
@@ -18,6 +19,7 @@ class GameController : MonoBehaviour {
     public GameObject PeaoBranco = null;
     public GameObject PeaoPreto = null;
 
+
     public Text txtMsg = null;
     public Text txtXeque = null;
 
@@ -30,10 +32,14 @@ class GameController : MonoBehaviour {
     Color corOriginal;
     Vector3 posDescarteBrancas, posDescartePretas;
 
+    public GameObject particulas;
+    List<GameObject> listaParticulas;
+    
     void Start () {
         estado = Estado.AguardandoJogada;
         pecaEscolhida = null;
         corOriginal = txtMsg.color;
+        listaParticulas = new List<GameObject>();
 
         posDescarteBrancas = new Vector3(-2.5f, 0f, -1);
         posDescartePretas = new Vector3(2.5f, 0f, 1);
@@ -83,9 +89,9 @@ class GameController : MonoBehaviour {
 
     public void processarMouseDown(GameObject obj, GameObject casa)
     {
-        if(estado == Estado.AguardandoJogada)
+        if (estado == Estado.AguardandoJogada)
         {
-            if(casa != null)
+            if (casa != null)
             {
                 try
                 {
@@ -96,9 +102,12 @@ class GameController : MonoBehaviour {
                     pecaEscolhida = obj;
                     estado = Estado.Arrastando;
                     txtMsg.text = "Selecione a casa de destino";
+                    instanciarParticulas();
+                    GameObject.Find("somClique").GetComponent<AudioSource>().Play();
                 }
                 catch (TabuleiroException e)
                 {
+                    GameObject.Find("somErro").GetComponent<AudioSource>().Play();
                     InformarAviso(e.Message);
                 }
             }
@@ -106,7 +115,7 @@ class GameController : MonoBehaviour {
         else if (estado == Estado.Arrastando)
         {
             GameObject casaDestino = null;
-            if(obj.layer == LayerMask.NameToLayer("Casas"))
+            if (obj.layer == LayerMask.NameToLayer("Casas"))
             {
                 casaDestino = obj;
             }
@@ -120,46 +129,56 @@ class GameController : MonoBehaviour {
             {
                 try
                 {
-                        char coluna = casaDestino.name[0];
-                        int linha = casaDestino.name[1] - '0';
-                        destino = new PosicaoXadrez(coluna, linha);
+                    char coluna = casaDestino.name[0];
+                    int linha = casaDestino.name[1] - '0';
+                    destino = new PosicaoXadrez(coluna, linha);
 
-                        partida.validarPosicaoDeDestino(origem.toPosicao(), destino.toPosicao());
-                        Peca pecaCapturada = partida.realizaJogada(origem.toPosicao(), destino.toPosicao());
+                    partida.validarPosicaoDeDestino(origem.toPosicao(), destino.toPosicao());
+                    Peca pecaCapturada = partida.realizaJogada(origem.toPosicao(), destino.toPosicao());
 
-                        if (pecaCapturada != null)
-                        {
-                            removerObjetoCapturado(pecaCapturada);
-                        }
-
-                        pecaEscolhida.transform.position = Util.posicaoNaCena(coluna, linha);
-
-                        tratarJogadasEspeciais();
-
-                        pecaEscolhida = null;
-
-                        if (partida.terminada)
-                        {
-                            estado = Estado.GameOver;
-                            txtMsg.text = "Vencedor: " + partida.jogadorAtual;
-                            txtXeque.text = "XEQUEMATE";
-                        }
-                        else
-                        {
-                            estado = Estado.AguardandoJogada;
-                            InformarAguardando();
-                            Invoke("girarCamera", 0.5f);
-                            txtXeque.text = (partida.xeque) ? "XEQUE" : "";
-                        }
-
-                    }
-                    catch (TabuleiroException e)
+                    if (pecaCapturada != null)
                     {
-                        pecaEscolhida.transform.position = Util.posicaoNaCena(origem.coluna, origem.linha);
+                        removerObjetoCapturado(pecaCapturada);
+                        GameObject.Find("somCaptura").GetComponent<AudioSource>().Play();
+                    }
+                    else
+                    {
+                        GameObject.Find("somClique").GetComponent<AudioSource>().Play();
+                    }
+
+                    pecaEscolhida.transform.position = Util.posicaoNaCena(coluna, linha);
+
+                    tratarJogadasEspeciais();
+
+                    pecaEscolhida = null;
+
+                    if (partida.terminada)
+                    {
+                        estado = Estado.GameOver;
+                        txtMsg.text = "Vencedor: " + partida.jogadorAtual;
+                        txtXeque.text = "XEQUEMATE";
+                    }
+                    else
+                    {
                         estado = Estado.AguardandoJogada;
-                        InformarAviso(e.Message);
+                        InformarAguardando();
+                        Invoke("girarCamera", 0.5f);
+                        txtXeque.text = (partida.xeque) ? "XEQUE" : "";
                     }
                 }
+                catch (TabuleiroException e)
+                {
+                    pecaEscolhida.transform.position = Util.posicaoNaCena(origem.coluna, origem.linha);
+                    estado = Estado.AguardandoJogada;
+                    InformarAviso(e.Message);
+                    GameObject.Find("somErro").GetComponent<AudioSource>().Play();
+                }
+                finally
+                {
+                    destruirParticulas();
+                }
+
+            }
         }
     }
 
@@ -228,5 +247,34 @@ class GameController : MonoBehaviour {
         {
             Camera.main.GetComponent<CameraRotacao>().irParaPreta();
         }
+    }
+    void instanciarParticulas()
+    {
+        listaParticulas.Clear();
+        float y = GameObject.Find("PlanoDasPecas").transform.position.y;
+
+        bool[,] mat = partida.tab.peca(origem.toPosicao()).movimentosPossiveis();
+        for (int i = 0; i < partida.tab.linhas; i++)
+        {
+            for (int j = 0; j < partida.tab.colunas; j++)
+            {
+                if (mat[i, j])
+                {
+                    char coluna = (char)('a' + j);
+                    int linha = 8 - i;
+                    Vector3 posCasa = GameObject.Find("" + coluna + linha).transform.position;
+                    Vector3 pos = new Vector3(posCasa.x, y, posCasa.z);
+                    GameObject obj = Instantiate(particulas, pos, Quaternion.identity) as GameObject;
+                    listaParticulas.Add(obj);
+                }
+            }
+        }
+    }
+    void destruirParticulas()
+    {
+        foreach (GameObject obj in listaParticulas){
+            Destroy(obj);
+        }
+        listaParticulas.Clear();
     }
 }
